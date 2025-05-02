@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple(or not!) Math Test</title>
+</head>
+<body>
+<!--Start of the test-->
+    <h1>Test your math skills!</h1>
+
+    <form action="/submit_test" method="post">
+        <div>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <br>
+
+        <div>
+            <p>1. What is 2 &plus; 2?</p> 
+            <input type="radio" id="q1_a" name="q1" value="4">
+            <label for="q1_a">4</label><br>
+            <input type="radio" id="q1_b" name="q1" value="5">
+            <label for="q1_b">5</label><br>
+            <input type="radio" id="q1_c" name="q1" value="6">
+            <label for="q1_c">6</label>
+        </div>
+        <br>
+
+        <div>
+            <p>2. What is the result of 3 &times; 3?</p>
+            <input type="radio" id="q2_a" name="q2" value="6">
+            <label for="q2_a">6</label><br>
+            <input type="radio" id="q2_b" name="q2" value="9">
+            <label for="q2_b">9</label><br>
+            <input type="radio" id="q2_c" name="q2" value="12">
+            <label for="q2_c">12</label>
+        </div>
+        <br>
+
+        <div>
+            <p>3. What is 100 &minus; 50?</p>
+            <input type="radio" id="q3_a" name="q3" value="3">
+            <label for="q3_a">32</label><br>
+            <input type="radio" id="q3_b" name="q3" value="5">
+            <label for="q3_b">50</label><br>
+            <input type="radio" id="q3_c" name="q3" value="7">
+            <label for="q3_c">70</label>
+        </div>
+        <br>
+
+        <div>
+            <p>4. There were 12 apples in a basket. 1/3 of the apples were eaten by the very hungry caterpillar. How many apples are left in the basket?</p>
+            <textarea id="word_problem" name="word_problem" rows="4" cols="50" placeholder="Enter your answer here"></textarea>
+        </div>
+        <br>
+
+        <button type="submit">Submit My Test!!!</button>
+    </form>
+<!--End of the test-->
+    </body>
+</html>
