@@ -57,5 +57,5 @@ footer {
 .video-container iframe {
     width: 100%;
     height: auto;
-    aspect-ratio: 16 / 9; /* Maintain 16:9 aspect ratio */
+    aspect-ratio: 16 / 9;
 }
