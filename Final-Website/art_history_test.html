@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art History Test - Viktoriia Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="motivation.html">Motivation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="art_history_test.html">Art History Test</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Test Your Art History Knowledge!</h1>
+<ol class="complex-list">
+                <li class="question">
+                    <h3>Question 1: Who painted the Mona Lisa?</h3>
+                    <ol type="a">
+                        <li class="option"><input type="radio" name="q1" value="a"> Leonardo da Vinci</li>
+                        <li class="option"><input type="radio" name="q1" value="b"> Vincent van Gogh</li>
+                        <li class="option"><input type="radio" name="q1" value="c"> Pablo Picasso</li>
+                    </ol>
+					<div class="image-helper">
+                        <img src="images/mona-lisa.jpg" alt="Mona Lisa" width="80">
+                    </div>
+                    <p class="answer">a) Leonardo da Vinci</p>
+                </li>
+                <li class="question">
+                    <h3>Question 2: Which art movement is known for its dream-like imagery?</h3>
+                    <ol type="a">
+                        <li class="option"><input type="radio" name="q2" value="a"> Impressionism</li>
+                        <li class="option"><input type="radio" name="q2" value="b"> Surrealism</li>
+                        <li class="option"><input type="radio" name="q2" value="c"> Cubism</li>
+                    </ol>
+					<div class="image-helper">
+                        <img src="images/surrealism.jpg" alt="Surrealism" width="80">
+                    </div>
+                    <p class="answer">b) Surrealism</p>
+                </li>
+                <li class="question">
+                    <h3>Question 3: Which of these structures is the most famous example of Ancient Greek architecture?</h3>
+                    <ol type="a">
+                        <li class="option"><input type="radio" name="q3" value="a"> The Colosseum</li>
+                        <li class="option"><input type="radio" name="q3" value="b"> The Parthenon</li>
+                        <li class="option"><input type="radio" name="q3" value="c"> The Pyramids of Giza</li>
+                    </ol>
+                    <div class="image-helper">
+                        <img src="images/parthenon.jpg" alt="The Parthenon" width="80">
+                    </div>
+                    <p class="answer">b) The Parthenon</p>
+                </li>
+                <li class="question">
+                    <h3>Question 4: Which art movement is most closely associated with Claude Monet?</h3>
+                    <ol type="a">
+                        <li class="option"><input type="radio" name="q4" value="a"> Cubism</li>
+                        <li class="option"><input type="radio" name="q4" value="b"> Impressionism</li>
+                        <li class="option"><input type="radio" name="q4" value="c"> Surrealism</li>
+                    </ol>
+                    <div class="image-helper">
+                        <img src="images/water_lilies.jpg" alt="Water Lilies by Monet" width="80">
+                    </div>
+                    <p class="answer">b) Impressionism</p>
+                </li>
+                <li class="question">
+                    <h3>Question 5: Which famous painting was created by Sandro Botticelli?</h3>
+                    <ol type="a">
+                        <li class="option"><input type="radio" name="q5" value="a"> Mona Lisa</li>
+                        <li class="option"><input type="radio" name="q5" value="b"> The Birth of Venus</li>
+                        <li class="option"><input type="radio" name="q5" value="c"> Starry Night</li>
+                    </ol>
+                    <div class="image-helper">
+                        <img src="images/birth_of_venus.jpg" alt="Birth of Venus by Botticelli" width="80">
+                    </div>
+                    <p class="answer">b) The Birth of Venus</p>
+                </li>
+                <li class="question">
+                    <h3>Question 6: Which characteristics are most often associated with the Rococo style?</h3>
+                    <ol type="a">
+                        <li class="option"><input type="radio" name="q6" value="a"> Monumentality and seriousness</li>
+                        <li class="option"><input type="radio" name="q6" value="b"> Lightness, playfulness, and ornamentation</li>
+                        <li class="option"><input type="radio" name="q6" value="c"> Realism and social critique</li>
+                    </ol>
+                    <div class="image-helper">
+                        <img src="images/the_swing.jpg" alt="The Swing by Fragonard" width="80">
+                    </div>
+                    <p class="answer">b) Lightness, playfulness, and ornamentation</p>
+                </li>
+            </ol>
+            <button onclick="showResults()">Submit Answers</button>
+            <div id="results"></div>
+        </section>
+
+<section>
+            <h2>Brief Overview of Art Eras</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Era</th>
+                        <th>Period (approx.)</th>
+                        <th>Key Characteristics</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ancient Greece</td>
+                        <td>c. 8th century BCE - 1st century CE</td>
+                        <td>Idealism, harmony, proportions</td>
+                    </tr>
+                    <tr>
+                        <td>Renaissance</td>
+                        <td>c. 14th - 16th century</td>
+                        <td>Humanism, realism, perspective</td>
+                    </tr>
+                    <tr>
+                        <td>Impressionism</td>
+                        <td>c. 19th century</td>
+                        <td>Emphasis on light and color, capturing fleeting moments</td>
+                    </tr>
+                    <tr>
+                        <td>Contemporary Art</td>
+                        <td>c. 20th century - present</td>
+                        <td>Diversity of styles, experimentation, individuality</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Viktoriia Muzyka. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showResults() {
+            alert("Sorry!!! The answers can't be proceced yet, BUT you can check how you did with the blured answers near the questions!!");
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of [Your Name]">
+    <meta name="keywords" content="portfolio, web design, art, art portfolio, personal, personal website, art history, motivation, teens, teenagers, art projects">
+    <meta name="author" content="Viktoriia">
+    <title>Viktoriia - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="motivation.html">Motivation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="art_history_test.html">Art History Test</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1 class="animated-greeting">Hello Ello Elooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</h1>
+                <p> I am Viktoriia or Viktorija or Victoria or Vittoria or Tori or Tyrannosaurus Rex</p>
+				<p> Whatever you prefer</p>
+                <a href="projects.html" class="button">My Portfolio</a>
+            </div>
+            <img src="images/me1.jpg" alt="A photo of me" width="200" height="200">
+            <p class="image-caption">hello dear passenger of the world</p>
+			<p class="image-caption">I am carefully watching you through your webcam, smile :)</p>
+        </section>
+
+        <section id="about-short">
+            <h2>About Me</h2>
+            <p>Hii!</p>
+			<p>I am Viktoriia Muzyka</p>
+			<p>Fun fact, muzyka in Ukrainian literally means music</p>
+			<p>I am obssesed with art, collecting trash, paganism, books, mismatched socks, glittery nail polishes and observing people's behaviors</p>
+        </section>
+
+        <section id="latest-projects">
+            <h2>Latest Projects</h2>
+            <div class="grid-container">
+                <div class="art-item">
+                    <img src="images/art1.jpg" alt="Purple Sunset" width="300" height="200">
+                    <h3>Purple Sunset</h3>
+                    <p>Oil, 25x25</p>
+                    <a href="projects.html">Learn More</a>
+                    <p class="image-caption">Purple Sunset Image</p>
+                </div>
+                <div class="art-item">
+                    <img src="images/art2.jpg" alt="Birch Trees by A Waterfall" width="300" height="200">
+                    <h3>Birch Trees by A Waterfall</h3>
+                    <p>Oil, round canvas</p>
+                    <a href="projects.html">Learn More</a>
+                    <p class="image-caption">Birch Trees by A Waterfall Image</p>
+                </div>
+                <div class="art-item">
+                    <img src="images/art3.jpg" alt="Mountainous Landscape" width="300" height="200">
+                    <h3>Mountainous Landscape</h3>
+                    <p>Oil, 25x25</p>
+                    <a href="projects.html">Learn More</a>
+                    <p class="image-caption">Mountainous Landscape Image</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-short">
+            <h2>Contact Me</h2>
+            <p>Leave your contact details and I will get in touch with you.</p>
+            <a href="contact.html" class="button">Contact</a>
+        </section>
+		<section id="survey">
+			<h2>Website Feedback</h2>
+			<form id="feedback-form">
+				<p>1. Did you like this website?</p>
+				<label><input type="radio" name="q1" value="yes"> Yes</label>
+				<label><input type="radio" name="q1" value="no"> No</label>
+
+				<p>2. Did you lie on the question 1?</p>
+				<label><input type="radio" name="q2" value="yes"> Yes</label>
+				<label><input type="radio" name="q2" value="no"> No</label>
+
+				<p>3. Did you lie on the question 2?</p>
+				<label><input type="radio" name="q3" value="yes"> Yes</label>
+				<label><input type="radio" name="q3" value="no"> No</label>
+
+				<div>
+					<label for="comments">Any other comments or concerns???</label>
+					<textarea id="comments" name="comments" rows="3"></textarea>
+				</div>
+				<button type="submit">Submit Feedback</button>
+			</form>
+		</section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Viktoriia Muzyka. All rights reserved.</p>
+    </footer>
+	
+<script>
+        document.getElementById('feedback-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert("Thank you for your feedback!");
+        });
+    </script>
+</body>
+</html>
